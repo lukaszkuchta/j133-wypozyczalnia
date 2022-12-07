@@ -22,6 +22,7 @@ public class Zwrot {
     private LocalDateTime dataZwrotu;
 
     @OneToOne
+    @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private Wypozyczenie wypozyczenie;
 }

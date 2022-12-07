@@ -8,7 +8,11 @@ public class Main {
                 new KomendaDodajKlient(),
                 new KomendaDodajSamochod(),
                 new KomendaDodajWypozyczenie(),
-                new KomendaDodajZwrot()
+                new KomendaDodajZwrot(),
+                new KomendaListaKlient(),
+                new KomendaListaSamochod(),
+                new KomendaListaWypozyczenie(),
+                new KomendaListaZwot()
         );
 
         String komenda;

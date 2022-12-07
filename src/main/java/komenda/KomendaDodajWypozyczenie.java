@@ -49,6 +49,8 @@ public class KomendaDodajWypozyczenie implements Komenda{
         double cenaWynajmu = Double.parseDouble(cenaWynajmuString);
 
         Wypozyczenie wypozyczenie = Wypozyczenie.builder()
+                .klient(klientOptional.get())
+                .samochod(samochodOptional.get())
                 .numerUmowy(numerUmowy)
                 .dataPlanowanegoZwrotu(dataPlanowanegoZwrotu)
                 .cenaWynajmu(cenaWynajmu)

@@ -29,6 +29,7 @@ public class KomendaDodajZwrot implements Komenda{
         String notatka = Komenda.SCANNER.nextLine();
 
         Zwrot zwrot = Zwrot.builder()
+                .wypozyczenie(wypozyczenieOptional.get())
                 .notatka(notatka)
                 .build();
 
