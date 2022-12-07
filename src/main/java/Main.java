@@ -12,7 +12,11 @@ public class Main {
                 new KomendaListaKlient(),
                 new KomendaListaSamochod(),
                 new KomendaListaWypozyczenie(),
-                new KomendaListaZwot()
+                new KomendaListaZwot(),
+                new KomendaUsunKlient(),
+                new KomendaUsunSamochod(),
+                new KomendaUsunWypozyczenie(),
+                new KomendaUsunZwrot()
         );
 
         String komenda;

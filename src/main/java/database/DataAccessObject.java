@@ -44,7 +44,7 @@ public class DataAccessObject<T> {
         return Optional.empty();
     }
 
-    public boolean delate(Class<T> tClass, Long id) {
+    public boolean delete(Class<T> tClass, Long id) {
         try (Session session = HibernateUtil.INSTANCE.getSessionFactory().openSession()) {
             Transaction transaction = session.beginTransaction();
 
